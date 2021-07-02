@@ -1109,13 +1109,13 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #10255c;
-  color: #fff;
-  border: 2px solid #10255c;
+  background: white ;
+  color: grey;
+  /* border: 2px solid #10255c; */
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ff9b1a !important;
-  border-color: #ff9b1a !important;
+  background: #10255c !important;
+  border-color: #10255c !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
