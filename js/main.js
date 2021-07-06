@@ -145,5 +145,18 @@
 		skillsWayPoint();
 	});
 
+//translate page
+	
+
 
 }());
+function googleTranslateElementInit() {
+	new google.translate.TranslateElement({
+		pageLanguage: 'en', 
+		includedLanguages: 'pt', 
+		autoDisplay: false
+	}, 'google_translate_element');
+	var a = document.querySelector("#google_translate_element");
+	a.selectedIndex=1;
+	a.dispatchEvent(new Event('change'));
+}

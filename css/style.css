@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 200px;
   width: 200px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -238,25 +238,27 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-features .feature-left .icon {
   display: table;
-  text-align: center;
-  width: 100px;
+  
   height: 100px;
   margin: 0 auto;
-  background: #fff;
+  /* background: #fff; */
   margin-bottom: 20px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  /* -webkit-border-radius: 50%; */
+  /* -moz-border-radius: 50%; */
+  /* -ms-border-radius: 50%; */
+  /* border-radius: 50%; */
 }
-#fh5co-features .feature-left .icon i {
+#fh5co-features .feature-left .icon img{
   font-size: 50px;
   display: table-cell;
-  vertical-align: middle;
-  height: 100px;
-  color: #10255c !important;
+  vertical-align: bottom;
+  height: 120px;
+  width: 120px;
+  /* color: #10255c !important; */
  
 }
+
+
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
 }
@@ -318,12 +320,13 @@ h1, h2, h3, h4, h5, h6, figure {
 .info {
   margin: 0;
   padding: 0;
-  width: 90%;
+  width: 100%;
   float: left;
 }
 @media screen and (max-width: 768px) {
   .info {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
+
   }
 }
 .info li {
@@ -336,12 +339,13 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-top: 0;
 }
 .info li .first-block {
-  width: 40%;
+  width: 35%;
   display: inline-block;
   float: left;
   color: #000;
   font-weight: bold;
 }
+
 .info li .second-block {
   width: 60%;
   display: inline-block;
