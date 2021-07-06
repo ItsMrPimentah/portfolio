@@ -1,0 +1,4 @@
+https://whatis.techtarget.com/definition/offline-first
+https://docs.mongodb.com/realm-legacy/solutions/offline-first.html
+https://mattfarley.ca/
+https://www.dejan.works/files/Dejan_Markovic_CV.pdf

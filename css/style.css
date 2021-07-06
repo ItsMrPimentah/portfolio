@@ -720,8 +720,8 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  height: 200px;
-  width: 50%;
+  height: 75px;
+  width: 100%;
   display: table;
   overflow: hidden;
 }
@@ -988,12 +988,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  padding: 50px 0;
-  float: left;
-  width: 100%;
+ display: inline;
+ text-align: center; 
+  
 }
 #fh5co-footer p:last-child {
-  margin-bottom: 0;
+  margin: 10px 0 10px 0;
 }
 
 .contact-info {
