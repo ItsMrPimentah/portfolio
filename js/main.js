@@ -106,12 +106,12 @@
 	var pieChart = function () {
 		$('.chart').easyPieChart({
 			scaleColor: false,
-			lineWidth: 2,
+			lineWidth: 3,
 			lineCap: 'butt',
 			barColor: '#10255c',
 			trackColor: "#f5f5f5",
 			size: 160,
-			animate: 1000
+			animate: 2000
 		});
 	};
 
@@ -145,18 +145,18 @@
 		skillsWayPoint();
 	});
 
-//translate page
-	
+	//translate page
+
 
 
 }());
 function googleTranslateElementInit() {
 	new google.translate.TranslateElement({
-		pageLanguage: 'en', 
-		includedLanguages: 'pt', 
+		pageLanguage: 'en',
+		includedLanguages: 'pt',
 		autoDisplay: false
 	}, 'google_translate_element');
 	var a = document.querySelector("#google_translate_element");
-	a.selectedIndex=1;
+	a.selectedIndex = 1;
 	a.dispatchEvent(new Event('change'));
 }
