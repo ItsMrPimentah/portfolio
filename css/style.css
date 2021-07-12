@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6, figure {
     color: #ffffff;
     float: left;
    display: block;  
-   font-weight: lighter;
+   /* font-weight: lighter; */
 }
 .col-md-6 h3{
   color: #ffffff;
@@ -340,7 +340,6 @@ h1, h2, h3, h4, h5, h6, figure {
     padding: 3em 0;
   }
 }
-
 
 
 #fh5co-started {
